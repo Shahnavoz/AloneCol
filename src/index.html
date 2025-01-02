@@ -3,10 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/fontawesome-free-6.6.0-web/css/all.css">
     <link rel="stylesheet" href="../src/output.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>hello</h1>
+    <header class="p-[40px]">
+        <nav class="flex items-center justify-between">
+            <img src="../src/img/windom logo 4.png" alt="">
+            <ul class="hidden lg:flex lg:gap-[50px]">
+                <li>Наши проекты</li>
+                <li>Дома</li>
+                <li>Ипотека</li>
+                <li>О компании</li>
+                <li>Контакты</li>
+            </ul>
+
+            <div class="flex gap-[30px]">
+                <i class="text-[25px] text-[#EFA35A] fa-solid fa-phone"></i>
+                <i class="text-[25px] text-[#EFA35A] lg:hidden fa-solid fa-bars"></i>
+                <p class="hidden lg:flex">+7 (962) 555-25-25</p>
+            </div>
+
+            <button class="hidden lg:flex lg:px-[35px] py-[15px] border-[1px] border-[#EFA35A]">Заказать звонок</button>
+            
+
+        </nav>
+    </header>
+    <hr class="bg-[#E3E3E3]">
+
+    <div class=" max-w-[1300px] m-auto p-[30px] flex items-center justify-between lg:flex-col  lg:gap-[30px]">
+        <h1 class="text-[30px] font-medium uppercase lg:text-[46px] ">новости</h1>
+        <article class="lg:flex lg:justify-center lg:gap-[50px]">
+            <div class="hidden lg:block lg:py-[10px] lg:px-[30px] lg:border-[1px] lg:inline-block lg:text-[24px] lg:flex lg:items-center lg:gap-[8px]"><p>2017</p>
+               
+            </div>
+            <div class="hidden lg:block lg:py-[10px] lg:px-[30px] lg:border-[1px] lg:inline-block lg:text-[24px] lg:flex lg:items-center lg:gap-[8px]"><p>2018</p>
+               
+            </div>
+            <div class="hidden lg:block lg:py-[10px] lg:px-[30px] lg:border-[1px] lg:inline-block lg:text-[24px] lg:flex lg:items-center lg:gap-[8px]"><p>2019</p>
+               
+            </div>
+            <div class="hidden  lg:block lg:py-[10px] lg:px-[30px] lg:border-[1px] lg:inline-block lg:text-[24px] lg:flex lg:items-center lg:gap-[8px]"><p>2020</p>
+                
+            </div>
+            <div class="hidden lg:block lg:py-[10px] lg:px-[30px] lg:border-[1px] lg:inline-block lg:text-[24px] lg:flex lg:items-center lg:gap-[8px]"><p>2021</p>
+               
+            </div>
+            <div class="hidden lg:block lg:py-[10px] lg:px-[30px] lg:border-[1px] lg:inline-block lg:text-[24px] lg:flex lg:items-center lg:gap-[8px]">
+                <p>2022</p>
+              </div>
+            <div class="py-[10px] px-[30px] border-[1px] inline-block text-[24px] flex items-center gap-[8px] lg:text-white lg:bg-[#EFA35A]">
+                <p>2023</p>
+                <img src="../src/img/formkit_down.png" alt="" class="lg:hidden">
+
+            </div>
+        </article>
+    </div>
+
+
+
+
+    
 </body>
 </html>
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+ <!-- <i class="fa-regular fa-clock"></i> -->
+
+
+
